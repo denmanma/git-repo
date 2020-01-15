@@ -26,9 +26,9 @@ div.blockhead {
 }
 
 #self-photo {
-    height: 105 !important;
+    height: 106 !important;
     width: 80 !important;
-    padding: 10px;
+    padding: 5px;
 }
 
 #blockhead-name {
@@ -45,7 +45,14 @@ div.blockhead {
 #blockhead-certs {
     display: flex;
     justify-content: space-evenly;
-    padding: 10px;
+}
+
+#seclogo {
+    padding: 5px;
+}
+
+#casplogo {
+    padding: 5px;
 }
 
 #blockhead-image {}

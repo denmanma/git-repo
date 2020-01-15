@@ -1,0 +1,75 @@
+body {
+    background-color: #333333;
+    color: #cccccc;
+    padding: 15px;
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+}
+
+a {
+    color: cyan;
+}
+
+#blockhead {
+    background-color: #1b1a1a;
+    color: #ffffff;
+    max-width: 620px;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+div.blockhead {
+    align-self: center;
+}
+
+#self-photo {
+    height: 105 !important;
+    width: 80 !important;
+    padding: 10px;
+}
+
+#blockhead-name {
+    color: #5e67e4;
+    font-size: 20;
+    font-weight: bold;
+}
+
+#blockhead-content {
+    color: #5e67e4;
+    align-content: flex-end;
+}
+
+#blockhead-certs {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+
+#blockhead-image {}
+
+#careerprofile {}
+
+#blockexperience {}
+
+#blockbullets {}
+
+span.dateformat {
+    font-size: medium;
+    font-weight: bold;
+}
+
+span.jobtitle-location {
+    font-size: medium;
+    font-style: italic;
+}
+
+div.job-bullets {}
+
+
+/*
+.name - This is an example of a class name
+#name - This is an example of an ID name
+*/

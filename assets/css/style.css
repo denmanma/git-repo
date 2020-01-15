@@ -1,9 +1,9 @@
 body {
+    max-width: 1024px;
     background-color: #333333;
     color: #cccccc;
     padding: 15px;
-    display: flex;
-    justify-content: left;
+    display: flex !important;
     flex-direction: column;
 }
 
@@ -11,19 +11,42 @@ a {
     color: cyan;
 }
 
-#blockhead {
+.blockhead {
     background-color: #1b1a1a;
     color: #ffffff;
-    max-width: 620px;
+    width: 620px;
     height: 120px;
     display: flex;
     justify-content: center;
+    flex-direction: row;
     padding: 10px;
+}
+
+#blocksection {
+    max-width: 1024px;
+}
+
+.block {
+    max-width: 500px;
+    background-color: #1b1a1a;
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.card-title {
+    display: flex;
+    justify-content: center;
 }
 
 div.blockhead {
     align-self: center;
 }
+
+.bullets {
+
+}  
 
 #self-photo {
     height: 106 !important;
@@ -55,14 +78,6 @@ div.blockhead {
     padding: 5px;
 }
 
-#blockhead-image {}
-
-#careerprofile {}
-
-#blockexperience {}
-
-#blockbullets {}
-
 span.dateformat {
     font-size: medium;
     font-weight: bold;
@@ -73,8 +88,9 @@ span.jobtitle-location {
     font-style: italic;
 }
 
-div.job-bullets {}
+@media screen and (max-width: 800px) {
 
+}
 
 /*
 .name - This is an example of a class name

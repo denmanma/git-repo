@@ -1,10 +1,11 @@
 body {
-    max-width: 1024px;
+    max-width: 2048px;
     background-color: #333333;
     color: #cccccc;
     padding: 15px;
-    display: flex !important;
+    display: flex;
     flex-direction: column;
+    justify-content: space-between;
 }
 
 a {
@@ -14,6 +15,7 @@ a {
 .blockhead {
     background-color: #1b1a1a;
     color: #ffffff;
+    text-align: center;
     width: 620px;
     height: 120px;
     display: flex;
@@ -22,35 +24,18 @@ a {
     padding: 10px;
 }
 
-#blocksection {
-    max-width: 1024px;
+h1.labels {
+    max-width: 440px;
+    color: #ffffff;
+    background-color: #000000;
 }
 
-.block {
-    max-width: 500px;
-    background-color: #1b1a1a;
-    display: flex;
-    justify-content: left;
-    flex-direction: column;
-    padding: 10px;
-}
-
-.card-title {
+.labels {
     display: flex;
     justify-content: center;
 }
 
-div.blockhead {
-    align-self: center;
-}
-
-.bullets {
-
-}  
-
-#self-photo {
-    height: 106 !important;
-    width: 80 !important;
+.blockhead-image {
     padding: 5px;
 }
 
@@ -70,13 +55,37 @@ div.blockhead {
     justify-content: space-evenly;
 }
 
-#seclogo {
-    padding: 5px;
+#content {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
 }
 
-#casplogo {
-    padding: 5px;
+.blocksection {
+    background-color: #302929;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: flex-start;
 }
+
+.block {
+    max-width: 440px;
+    background-color: #1b1a1a;
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    padding: 10px;
+}
+
+
+div.blockhead {
+    align-self: center;
+}
+
+.bullets {
+
+}  
 
 span.dateformat {
     font-size: medium;
@@ -89,7 +98,7 @@ span.jobtitle-location {
 }
 
 @media screen and (max-width: 800px) {
-
+    
 }
 
 /*

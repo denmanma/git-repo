@@ -1,0 +1,107 @@
+body {
+    max-width: 2048px;
+    background-color: #333333;
+    color: #cccccc;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+a {
+    color: cyan;
+}
+
+.blockhead {
+    background-color: #1b1a1a;
+    color: #ffffff;
+    text-align: center;
+    width: 620px;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    padding: 10px;
+}
+
+h1.labels {
+    max-width: 440px;
+    color: #ffffff;
+    background-color: #000000;
+}
+
+.labels {
+    display: flex;
+    justify-content: center;
+}
+
+.blockhead-image {
+    padding: 5px;
+}
+
+#blockhead-name {
+    color: #5e67e4;
+    font-size: 20;
+    font-weight: bold;
+}
+
+#blockhead-content {
+    color: #5e67e4;
+    align-content: flex-end;
+}
+
+#blockhead-certs {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#content {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+}
+
+.blocksection {
+    background-color: #302929;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: flex-start;
+}
+
+.block {
+    max-width: 440px;
+    background-color: #1b1a1a;
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    padding: 10px;
+}
+
+
+div.blockhead {
+    align-self: center;
+}
+
+.bullets {
+
+}  
+
+span.dateformat {
+    font-size: medium;
+    font-weight: bold;
+}
+
+span.jobtitle-location {
+    font-size: medium;
+    font-style: italic;
+}
+
+@media screen and (max-width: 800px) {
+    
+}
+
+/*
+.name - This is an example of a class name
+#name - This is an example of an ID name
+*/

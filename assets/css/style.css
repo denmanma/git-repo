@@ -16,27 +16,31 @@ a {
     background-color: #1b1a1a;
     color: #ffffff;
     text-align: center;
-    width: 620px;
-    height: 120px;
+    max-width: 620px;
+    max-height: 620px;
     display: flex;
     justify-content: center;
-    flex-direction: row;
+    flex-flow: row wrap;
     padding: 10px;
 }
 
 h1.labels {
     max-width: 440px;
-    color: #ffffff;
+    color: #da874f;
     background-color: #000000;
+    text-align: center;
 }
 
 .labels {
     display: flex;
     justify-content: center;
+    padding: 5px;
 }
 
-.blockhead-image {
+img.blockhead-image {
     padding: 5px;
+    width: 80px !important;
+    height: 106px !important;
 }
 
 #blockhead-name {
@@ -48,6 +52,8 @@ h1.labels {
 #blockhead-content {
     color: #5e67e4;
     align-content: flex-end;
+    width: 300px;
+    height: 120px;
 }
 
 #blockhead-certs {

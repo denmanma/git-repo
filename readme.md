@@ -1,10 +1,10 @@
 # Resume: MICHAEL DENMAN
 
-![This is a photo ID style self 
-portrait of Michael.](assets\images\self-photo.png) MICHAEL ALEXANDER DENMAN
+![This should be a photo ID style self 
+portrait of Michael.](assets/images/self-photo.png) MICHAEL ALEXANDER DENMAN
 ---
 
-_[Call me](tel:+13252772340) \-\- [Email Me](mailto:denmanmd@gmail.com) \-\- [Check out my LinkedIn](https://www.linkedin.com/in/michael-denman/)_
+[Call me](tel:+13252772340) \-\- [Email Me](mailto:denmanmd@gmail.com) \-\- [Check out my LinkedIn](https://www.linkedin.com/in/michael-denman/)
 
 United States Citizen, Languages: Spanish & English  
 [Security+](https://www.youracclaim.com/badges/1c4d9cb9-b9da-4602-b60a-48be5a33ad94) & [CASP+](https://www.youracclaim.com/badges/b698b10a-25f6-4f20-9d5a-5455360fffba) Certified, Job Availability Date: 23 Sept 2019  
@@ -67,8 +67,8 @@ Education
     
 *   AAS, Avionics Systems and Technology  
     
-    Certificates
-    ------------
+Certificates
+------------
     
 *   (2018) CompTIA Advanced Security Practitioner (CASP+), San Antonio, TX
 *   (2017) Computer Network Operations (CNO) Exploitation Analyst, San Antonio, TX

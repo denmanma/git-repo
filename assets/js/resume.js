@@ -3,6 +3,6 @@ function showHide(bullet) {
         if (bulletId.style.display !== "none") {
             bulletId.style.display = "none";
         } else {
-            bulletId.style.display = "list-item";
+            bulletId.style.display = "block";
         }
     }

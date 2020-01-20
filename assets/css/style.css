@@ -12,6 +12,8 @@ a {
     color: cyan;
 }
 
+/* The section below covers the contact info block of the resume*/
+
 .blockhead {
     background-color: #1b1a1a;
     color: #ffffff;
@@ -69,6 +71,8 @@ img.blockhead-image {
     justify-content: space-evenly;
 }
 
+/* The section below covers the content of the resume*/
+
 #content {
     display: flex;
     flex-flow: column wrap;
@@ -115,6 +119,8 @@ span.jobtitle-location {
     font-size: medium;
     font-style: italic;
 }
+
+/* This section covers media responsiveness for different resolutions */
 
 @media screen and (max-width: 460px) {
     .bullets {

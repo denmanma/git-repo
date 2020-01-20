@@ -22,6 +22,11 @@ a {
     justify-content: center;
     flex-flow: row wrap;
     padding: 10px;
+    border-radius: 12px;
+}
+
+div.blockhead {
+    align-self: center !important;
 }
 
 h1.labels {
@@ -32,6 +37,7 @@ h1.labels {
 }
 
 .labels {
+    border-radius: 12px;
     display: flex;
     justify-content: center;
     padding: 5px;
@@ -70,7 +76,7 @@ img.blockhead-image {
 }
 
 .blocksection {
-    background-color: #302929;
+    background-color: #333333;
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
@@ -86,11 +92,17 @@ img.blockhead-image {
     padding: 10px;
 }
 
-.bullets {
-    min-height: ;
+.showhidebutton {
+    display: none;
 }
 
-div.blockhead {
+.showhidebutton {
+    border-radius: 12px;
+    border-color:  #5e67e4;
+    background-color: #da874f;
+    font-weight: bolder;
+    max-width: 150px;
+    padding: 2px;
     align-self: center;
 }
 
@@ -109,6 +121,10 @@ span.jobtitle-location {
         display: none;
     }
 
+    .showhidebutton {
+        display: inline-block;
+    }
+
     #self-photo {
         width: 160px;
         height: 212px;
@@ -121,6 +137,10 @@ span.jobtitle-location {
 
     .bullets {
         display: none;
+    }
+
+    .showhidebutton {
+        display: inline-block;
     }
 
     #self-photo {
@@ -141,6 +161,16 @@ span.jobtitle-location {
 @media screen and (max-width: 965px) {
     .bullets {
         display: none;
+    }
+
+    .showhidebutton {
+        display: inline-block;
+    }
+}
+
+@media screen and (min-width: 966px) {
+    .bullets {
+        display: block !important;
     }
 }
 

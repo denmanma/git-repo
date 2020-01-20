@@ -31,20 +31,6 @@ div.blockhead {
     align-self: center !important;
 }
 
-h1.labels {
-    max-width: 440px;
-    color: #da874f;
-    background-color: #000000;
-    text-align: center;
-}
-
-.labels {
-    border-radius: 12px;
-    display: flex;
-    justify-content: center;
-    padding: 5px;
-}
-
 img.blockhead-image {
     padding: 5px;
     width: 80px;
@@ -79,6 +65,21 @@ img.blockhead-image {
     align-items: center;
 }
 
+h1.labels {
+    max-width: 440px;
+    color: #da874f;
+    text-align: center;
+}
+
+.labels {
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    background-color: #000000;
+    padding: 5px;
+    border-radius: 12px;
+}
+
 .blocksection {
     background-color: #333333;
     display: flex;
@@ -102,7 +103,7 @@ img.blockhead-image {
 
 .showhidebutton {
     border-radius: 12px;
-    border-color:  #5e67e4;
+    border-color: #5e67e4;
     background-color: #da874f;
     font-weight: bolder;
     max-width: 150px;

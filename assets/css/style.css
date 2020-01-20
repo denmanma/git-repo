@@ -176,6 +176,19 @@ span.jobtitle-location {
 }
 
 @media screen and (min-width: 966px) {
+    #summarybullets {
+        height: auto;
+        max-height: 100px;
+        overflow: hidden;
+
+    }
+
+    #summarybullets:hover {
+        overflow:hidden;
+        max-height: max-content;
+        height: auto;
+    }
+
     .bullets {
         display: block !important;
     }

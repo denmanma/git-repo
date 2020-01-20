@@ -10,11 +10,13 @@
 
 	<link rel="stylesheet" href="assets/css/style.css">
 
+	<script type="text/javascript" src="assets/js/resume.js"></script>
+
 </head>
 
 <body>
 	<div id="blockhead" class="blockhead">
-			<img id="self-photo" class="blockhead-image" src="assets\images\self-photo.png" alt="Self-photo">
+		<img id="self-photo" class="blockhead-image" src="assets\images\self-photo.png" alt="Self-photo">
 		<div id="blockhead-content">
 			<p id="blockhead-name">MICHAEL ALEXANDER DENMAN</p><br>
 			United States Citizen<br> Languages: Spanish & English<br> Job Availability Date: None<br>
@@ -32,10 +34,12 @@
 		</div>
 		<div id="blockhead-certs">
 			<a id="seclink" href="https://www.youracclaim.com/badges/1c4d9cb9-b9da-4602-b60a-48be5a33ad94">
-				<img id="seclogo" class="blockhead-image" src="assets\images\security.png" alt="Click here for Sec+ Certification">
+				<img id="seclogo" class="blockhead-image" src="assets\images\security.png"
+					alt="Click here for Sec+ Certification">
 			</a>
 			<a id="casplink" href="https://www.youracclaim.com/badges/b698b10a-25f6-4f20-9d5a-5455360fffba">
-				<img id="casplogo" class="blockhead-image" src="assets\images\casp.png" alt="Click here for Sec+ Certification">
+				<img id="casplogo" class="blockhead-image" src="assets\images\casp.png"
+					alt="Click here for Sec+ Certification">
 			</a>
 		</div>
 	</div>
@@ -51,8 +55,7 @@
 				<p><em>Currently performing software support as a Field Service Engineer for Parsons Secure Solutions.
 						Served almost 14 years with the United States Air Force with a broad range of experience. Most
 						recently served as an Exploitation Analyst with 5 years experience in high-stress and complex
-						cyber
-						vulnerability analysis.
+						cyber vulnerability analysis.
 					</em></p>
 			</div>
 			<div id="blockexperience" class="block">
@@ -86,6 +89,8 @@
 		<h1 class="labels">
 			PREVIOUS EMPLOYMENT
 		</h1>
+
+
 		<div id="blockbullets" class="blocksection">
 			<div class="block" class="job">
 				<span class="dateformat">
@@ -101,7 +106,8 @@
 					network
 					operations. Created and maintained technical and operational databases using diverse computer
 					hardware and software applications.</p>
-				<div class="block" class="bullets">
+				<button onclick="showHide('bullets1')">Show/Hide Bullets</button>
+				<div id="bullets1" class="bullets">
 					<ul>
 						<li>Led six personnel across 7 projects to identify 100+ network security vulnerabilities;
 							results
@@ -130,7 +136,8 @@
 				<p>Performed periodic and spot inspections and was responsible for maintaining the Quality Control,
 					Environmental and Safety Programs at the field level in support of assigned aircraft, personnel,
 					and support equipment.</p>
-				<div class="bullets">
+					<button onclick="showHide('bullets2')">Show/Hide Bullets</button>
+				<div id="bullets2" class="bullets">
 					<ul>
 						<li>Performed daily upkeep and upgrades of Microsoft Access database responsible for five
 							inspection programs tracking over 47K inspections. Drafted maintenance guide distributed
@@ -154,7 +161,8 @@
 				<p>Performed and managed avionics test station functions and activities. Operated, inspected,
 					maintained, programmed, and calibrated computer and manually operated avionics test equipment,
 					support equipment, and aircraft avionics systems components.</p>
-				<div class="bullets">
+					<button onclick="showHide('bullets3')">Show/Hide Bullets</button>
+				<div id="bullets3" class="bullets">
 					<ul>
 						<li>Skilled troubleshooter responsible for repair and return to service of over 1000 aircraft
 							parts. Saved over $500M in replacement costs through a 7-year period, earning an Air
